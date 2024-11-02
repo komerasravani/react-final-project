@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Style all links */
+a {
+  text-decoration: none; /* Remove underline */
+  color: #4CAF50; /* Green text */
+  font-family: Arial, sans-serif; /* Set font */
+  padding: 10px 15px; /* Add padding */
+  margin: 5px; /* Space between links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for links */
+a:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+  color: #000; /* Change text color to black */
+}
+
+/* Specific link styles using classes */
+.link-veg {
+  color: #8BC34A; /* Light green for Veg link */
+}
+
+.link-nonveg {
+  color: #FF5722; /* Orange for Non-Veg link */
+}
+
+.link-home {
+  color: #3F51B5; /* Blue for Home and Shop links */
+}
+
+/* Style for Purchase History */
+.link-history {
+  color: #009688; /* Teal for Purchase-History link */
+}
+
+/* Style for AboutUs and ContactUs */
+.link-about, .link-contact {
+  color: #9C27B0; /* Purple for AboutUs and ContactUs links */
+}
