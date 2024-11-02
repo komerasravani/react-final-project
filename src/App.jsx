@@ -19,6 +19,7 @@ function App()
   
   return(
   <>
+  <h1>this is home</h1>
   <GoogleOAuthProvider clientId="197255777041-bpm00taj4k8nqvqg9cgevnsmks40mqvi.apps.googleusercontent.com">
   <GoogleLoginComponent />
   </GoogleOAuthProvider>
